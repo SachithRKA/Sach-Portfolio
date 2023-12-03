@@ -34,26 +34,71 @@ p {
     margin-top: 300px;
 }
 
-.profile {
-    height: 200px;
-    width: 200px;
-    margin-top: 100px;
+.highlight {
+    color:#14C1DC;
 }
 
 #resume {
-    height: 100vh;
+    height: 50vh;
     width: 100vw;
     background-color: lightgray;
 }
 
+#resume .container {
+    margin-bottom: 30px;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+}
+
 #projects {
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
-    margin-top: 200px;
+    margin-top: 50px;
+}
+
+.skills img{
+    width: 200px;
+    height: 200px;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+.skills p {
+    text-align:justify;
+}
+
+.skills .one {
+    background-color:azure;
+    padding: 20px;
+}
+
+.skills .two{
+    background-color:aliceblue;
+    padding: 20px;
+}
+
+.skills .three {
+    background-color:beige;
+    padding: 20px;
 }
 
 #additionalInfo {
-    height: 100vh;
     width: 100vw;
+    height: 30vh;
+    background-color: lightgray;
+    padding-top: 30px;
+}
 
+#contact 
+{
+    width: 100vw;
 }
